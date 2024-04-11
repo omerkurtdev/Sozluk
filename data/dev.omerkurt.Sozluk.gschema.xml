@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="sozluk">
+	<schema id="dev.omerkurt.Sozluk" path="/dev/omerkurt/Sozluk/">
+	</schema>
+</schemalist>

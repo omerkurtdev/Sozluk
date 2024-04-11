@@ -1,0 +1,13 @@
+# Subprojects
+/subprojects/blueprint-compiler
+
+# Packaging
+.Python
+build/
+builddir/
+build-dir/
+_build/
+.flatpak/
+*.flatpak
+.flatpak-builder/
+repo/

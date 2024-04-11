@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=sozluk
+Exec=sozluk
+Icon=dev.omerkurt.Sozluk
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

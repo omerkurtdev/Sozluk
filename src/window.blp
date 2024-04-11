@@ -1,0 +1,37 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $SozlukWindow: Adw.ApplicationWindow {
+  width-request: 360;
+  height-request: 440;
+  default-width: 440;
+  default-height: 440;
+
+  Adw.ToolbarView toolbar_view {
+    [top]
+    Adw.HeaderBar {
+      title-widget: Box {
+        SearchEntry entry_search {
+          visible: true;
+        }
+      };
+
+      [end]
+      MenuButton {
+        icon-name: "open-menu-symbolic";
+        tooltip-text: _("Main Menu");
+        primary: true;
+        menu-model: menu_app;
+      }
+    }
+  }
+}
+
+menu menu_app {
+  section {
+    item {
+      label: _("About Sozluk");
+      action: "app.about";
+    }
+  }
+}

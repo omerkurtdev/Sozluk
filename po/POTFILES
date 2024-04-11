@@ -1,0 +1,6 @@
+data/dev.omerkurt.Sozluk.desktop.in
+data/dev.omerkurt.Sozluk.metainfo.xml.in
+data/dev.omerkurt.Sozluk.gschema.xml
+src/main.py
+src/window.py
+src/window.ui
